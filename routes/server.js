@@ -9,7 +9,6 @@ var app = express();
 var path = require('path');
 
 
-
 var mysql      = require('mysql');
 var con = mysql.createConnection({
   socketPath : '/var/run/mysqld/mysqld.sock',
